@@ -1,0 +1,16 @@
+﻿
+.c-header {
+    display: grid;
+    grid-template-columns: auto auto 1fr;
+    gap: var(--gap);
+    padding: var(--gap);
+    border-bottom: 1px solid #DDD;
+    background-color: #FFF;
+}
+.c-logo-lx {
+    justify-self: end;
+}
+.c-heading {
+    font-size: 2.2rem;
+    margin: 0;
+}

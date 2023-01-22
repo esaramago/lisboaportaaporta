@@ -1,0 +1,17 @@
+﻿:root {
+    --gap-xs: calc(var(--gap-sm) / 2);
+    --gap-sm: .8rem;
+    --gap: calc(var(--gap-sm) * 2);
+}
+html {
+    font-size: 62.5%;
+}
+p,
+body {
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.6rem;
+}
