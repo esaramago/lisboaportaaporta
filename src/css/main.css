@@ -36,6 +36,10 @@ body {
     min-height: 100%;
 }
 
+a {
+    color: #222;
+}
+
 
 .c-header {
     display: grid;
@@ -49,7 +53,7 @@ body {
     justify-self: end;
 }
 .c-heading {
-    font-size: 2.2rem;
+    font-size: 2rem;
     margin: 0;
 }
 
@@ -119,7 +123,7 @@ body {
     background-color: #FFF;
     padding: var(--gap);
     text-align: center;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
 }
 
 .c-footer__❤ {
