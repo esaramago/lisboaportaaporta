@@ -10,6 +10,9 @@ html {
     height: 100%;
     font-size: 62.5%;
 }
+svg {
+    display: block;
+}
 
 p,
 body,
@@ -53,13 +56,14 @@ body {
 .c-main {
     flex-grow: 1;
     padding: var(--gap-xl) var(--gap);
+    display: flex;
+    flex-direction: column;
 }
 
 .c-leading {
     padding: var(--gap);
     text-align: center;
     font-size: 3rem;
-    margin-bottom: 2rem;
 }
 
 .c-bin {
@@ -67,6 +71,9 @@ body {
     max-width: 30rem;
     margin: auto;
     display: block;
+}
+.c-bin > svg {
+    width: 100%;
 }
 .c-bin__container,
 .c-bin__cover {
