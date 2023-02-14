@@ -1,17 +1,17 @@
 {
-    "name":"Lisboa Porta a Porta",
-    "short_name":"LX Porta a Porta",
+    "name": "Lisboa Porta a Porta",
+    "short_name": "LX Porta a Porta",
     "icons":[
-        {"src":"img/icons/android-chrome-192x192.png","sizes":"192x192","type":"image/png"},
-        {"src":"img/icons/android-chrome-512x512.png","sizes":"512x512","type":"image/png"}
+        {"src": "img/icons/android-chrome-192x192.png","sizes": "192x192","type": "image/png"},
+        {"src": "img/icons/android-chrome-512x512.png","sizes": "512x512","type": "image/png"}
     ],
-    "theme_color":"#00AB51",
-    "display":"fullscreen",
+    "theme_color": "#00AB51",
+    "display": "standalone",
     "dir": "ltr",
     "lang": "pt",
     "scope": "/",
     "start_url": ".",
     "description": "Recolha de lixo porta a porta na cidade de Lisboa",
     "orientation": "any",
-    "background_color": "transparent"
+    "background_color": "#00AB51"
 }
