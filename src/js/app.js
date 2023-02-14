@@ -26,7 +26,7 @@
     ]
 
     const now = new Date()
-    const dayOfWeek = now.getDay()
+    let dayOfWeek = now.getDay() + 1
 
     const todayType = garbageTypes.find(type => type.days.includes(dayOfWeek))
 

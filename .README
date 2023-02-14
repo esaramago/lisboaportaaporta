@@ -1,4 +1,5 @@
-﻿Deploy:
-
+﻿# Deploy this project
+```
 npm run build
 firebase deploy --only hosting:portaaportalx
+```

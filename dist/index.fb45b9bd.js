@@ -1849,7 +1849,7 @@ parcelHelpers.export(exports, "validateContextObject", ()=>validateContextObject
 parcelHelpers.export(exports, "validateIndexedDBOpenable", ()=>validateIndexedDBOpenable);
 parcelHelpers.export(exports, "validateNamespace", ()=>validateNamespace);
 var global = arguments[3];
-var process = require("5c3ecb4a85a3a19c");
+var process = require("9c81c1d133ce2c05");
 const CONSTANTS = {
     /**
      * @define {boolean} Whether this is the client Node.js SDK.
@@ -3538,7 +3538,7 @@ function indicator(i) {
     else return service;
 }
 
-},{"5c3ecb4a85a3a19c":"d5jf4","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"d5jf4":[function(require,module,exports) {
+},{"9c81c1d133ce2c05":"d5jf4","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"d5jf4":[function(require,module,exports) {
 // shim for using process in browser
 var process = module.exports = {};
 // cached from whatever global is present so that test runners that stub it

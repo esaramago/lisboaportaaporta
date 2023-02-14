@@ -591,7 +591,7 @@ function hmrAccept(bundle, id) {
         }
     ];
     const now = new Date();
-    const dayOfWeek = now.getDay();
+    let dayOfWeek = now.getDay() + 1;
     const todayType = garbageTypes.find((type)=>type.days.includes(dayOfWeek));
     if (todayType) {
         document.getElementById("garbageContainer").style.fill = todayType.color;
