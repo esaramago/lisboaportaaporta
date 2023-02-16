@@ -6,12 +6,12 @@
         {"src": "img/icons/android-chrome-512x512.png", "sizes": "512x512", "type": "image/png"}
     ],
     "theme_color": "#00AB51",
-    "display": "minimal-ui",
+    "display": "standalone",
     "dir": "ltr",
     "lang": "pt",
     "scope": "/",
     "start_url": ".",
     "description": "Os dias da recolha de lixo porta a porta na cidade de Lisboa",
     "orientation": "any",
-    "background_color": "#00AB51"
+    "background_color": "#FFF"
 }
